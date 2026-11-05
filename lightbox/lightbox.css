@@ -1,0 +1,8 @@
+/* Image lightbox */
+.gallery-image { cursor: zoom-in; }
+.gallery-image:focus { outline: 3px solid #3F6B55; }
+#lightbox[hidden] { display: none; }
+#lightbox { position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 1000; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; box-sizing: border-box; }
+#lightbox-image { max-width: 90%; max-height: 75vh; width: auto; height: auto; object-fit: contain; }
+#lightbox-caption { color: white; text-align: center; }
+#lightbox-close { position: absolute; top: 12px; right: 20px; background: white; color: #222; border: none; border-radius: 6px; padding: 8px 14px; font-size: 24px; cursor: pointer; }

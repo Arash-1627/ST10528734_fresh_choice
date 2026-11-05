@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Fresh Choice Dairy and find its location.">
+    <title>contact| Fresh Choice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Header section with navigation -->
+    <header>
+    <img src="_images/Fresh_Choice_Logo.png" alt="Fresh Choice Dairy logo">
+    <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+    <!--Main contect for the Contact page-->
+    <main>
+        <h3>Email</h3>
+        <p>aiden@fresh-choice.co.za</p>
+        <h3>PHONE NUMBER</h3>
+        <p>043 555 0449</p>
+        <h2>Send Us a Message</h2>
+        <p>Complete the form to prepare an email in your email application.</p>
+        <form id="contact-form">
+            <label for="contact-name">Your Name:</label><br>
+            <input id="contact-name" type="text" required minlength="2"><br>
+            <label for="contact-email">Your Email:</label><br>
+            <input id="contact-email" type="email" required><br>
+            <label for="contact-type">Message Type:</label><br>
+            <select id="contact-type" required><option value="">Choose a type</option><option>General Question</option><option>Feedback</option><option>Other</option></select><br>
+            <label for="contact-message">Your Message:</label><br>
+            <textarea id="contact-message" rows="5" required minlength="10"></textarea><br><br>
+            <button type="submit">Prepare Email</button>
+            <p id="contact-answer" aria-live="polite"></p>
+        </form>
+        <h3>Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6687.474437426058!2d27.821875728051214!3d-33.06338445145028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e66e5ba5966a6db%3A0xc50abcc8635e1c79!2sCove%20Rock%20Country%20Estate!5e0!3m2!1sen!2sza!4v1788255633872!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+            <p>
+				<script>
+					var theDate=new Date()
+					document.write("&copy; " + theDate.getFullYear())
+					document.write(" - Fresh Choice | Last modified: ")
+					var theModifiedDate=new Date(document.lastModified)
+					document.write(theModifiedDate.toDateString())
+				</script>
+				<br>Powered by "Sharp-Sharp" Web Hosting
+		</p>
+    </footer>
+    
+    <script src="javascript/script.js"></script>
+</body>
+</html>

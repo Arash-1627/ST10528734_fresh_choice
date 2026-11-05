@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ask Fresh Choice Dairy about its products and availability.">
+    <title>account| Fresh Choice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Header Section with the navigation-->
+    <header>
+        <img src="_images/Fresh_Choice_Logo.png" alt="Fresh Choice Dairy logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Main content of the Enquiry Page-->
+    <main>
+        <h1>Enquiry</h1>
+        <h2>Get in Touch</h2>
+        <p>Have a question about our products? Fill in the form below and send us a message.</p>
+        <!-- Enquiry form with basic JavaScript validation -->
+        <form id="enquiry-form">
+            <label for="fname">Your Name:</label><br>
+            <input type="text" id="fname" name="fname" required minlength="2"><br>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="enquiry-product">Product:</label><br>
+            <select id="enquiry-product" name="product" required>
+                <option value="">Choose a product</option>
+                <option>Milk</option><option>Maas</option><option>Fresh Cream</option><option>Butter</option>
+            </select><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required minlength="10"></textarea><br><br>
+            <button type="submit" id="send-message-btn">Check Enquiry</button>
+            <p id="enquiry-answer" aria-live="polite"></p>
+        </form>
+
+        <section id="google-form">
+            <h2>Google Form</h2> <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdu9XUAqwx9dStb0GPuFoX36IW0e0Lfz4rduBMBUHVgJcf71g/viewform?embedded=true" width="640" height="691" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <p>You can also send your enquiry using our Google Form.</p>
+           
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p>
+			<script>
+				var theDate=new Date()
+				document.write("&copy; " + theDate.getFullYear())
+				document.write(" - Fresh Choice | Last modified: ")
+				var theModifiedDate=new Date(document.lastModified)
+				document.write(theModifiedDate.toDateString())
+				</script>
+				<br>Powered by "Sharp-Sharp" Web Hosting
+		</p>
+    </footer>
+    
+    <script src="javascript/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,287 @@
+/* Fresh Choice Dairy website styles */
+:root {
+    --farm-green: #3F6B55;
+    --cream: #FFF8EC;
+    --soft-peach: #E7B89A;
+    --white: #FFFFFF;
+    --charcoal: #222222;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--charcoal);
+    background-color: var(--cream);
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: var(--farm-green);
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    color: var(--farm-green);
+}
+
+h3 {
+    font-size: 20px;
+    color: var(--farm-green);
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+header {
+    background-color: var(--white);
+    border-bottom: 3px solid var(--farm-green);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: var(--charcoal);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+}
+
+nav a:hover {
+    color: var(--farm-green);
+}
+
+nav a:focus {
+    color: var(--farm-green);
+}
+
+#product-btn,
+#enquiry-btn,
+#send-message-btn {
+    display: inline-block;
+    padding: 12px 22px;
+    background-color: var(--farm-green);
+    color: var(--white);
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#product-btn:hover,
+#enquiry-btn:hover,
+#send-message-btn:hover {
+    background-color: #294c3a;
+}
+
+form {
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+input,
+textarea,
+select {
+    padding: 12px;
+    border: 1px solid #999999;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    max-width: 100%;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid var(--farm-green);
+    border-color: var(--farm-green);
+}
+
+input[type="submit"] {
+    background-color: var(--farm-green);
+    color: var(--white);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #294c3a;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+#map-section iframe,
+main > iframe {
+    width: 100%;
+    max-width: 700px;
+    border: none;
+    border-radius: 12px;
+}
+
+footer {
+    background-color: var(--farm-green);
+    color: var(--white);
+    padding: 30px 5%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer nav ul {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer nav a {
+    color: var(--white);
+}
+
+footer nav a:hover {
+    color: var(--cream);
+}
+
+/* Tablet */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    header {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    header img {
+        width: 140px;
+        margin-bottom: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    main {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    #map-section iframe,
+    main > iframe {
+        width: 100%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    header img {
+        width: 120px;
+        margin-bottom: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    nav li {
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
+    }
+
+    main {
+        width: 92%;
+        margin: 25px auto;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    body,
+    p {
+        font-size: 15px;
+    }
+
+    footer nav ul {
+        flex-direction: column;
+    }
+}
+/* Part 3: Product search and forms */
+#product-search { display: block; width: 100%; max-width: 450px; margin: 12px 0; padding: 10px; }
+.product-card { margin-bottom: 30px; padding: 16px; border: 1px solid #dddddd; border-radius: 8px; }
+.product-card img { max-width: 100%; height: auto; }
+#enquiry-form textarea, #contact-form textarea, #contact-form input, #contact-form select { max-width: 100%; box-sizing: border-box; }
+#enquiry-form textarea { width: 100%; max-width: 450px; }
+#contact-form textarea { width: 100%; max-width: 450px; }
+#contact-form button, #enquiry-form button { background: #3F6B55; color: white; border: 0; border-radius: 6px; padding: 12px 20px; cursor: pointer; }
+#contact-form button:hover, #enquiry-form button:hover { background: #294c3a; }
+main iframe { max-width: 100%; }

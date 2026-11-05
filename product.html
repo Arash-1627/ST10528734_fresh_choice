@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse Fresh Choice Dairy milk, maas, cream and butter.">
+    <title>shop| Fresh Choice</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="lightbox/lightbox.css">
+</head>
+<body>
+    <!--Header Section with Navigation-->
+    <header>
+        <img src="_images/Fresh_Choice_Logo.png" alt="Fresh Choice Dairy logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Main content of the Product page-->
+    <main>
+<h1>Our Products</h1>
+<label for="product-search">Search our products:</label>
+<input type="search" id="product-search" placeholder="Search milk, butter, maas...">
+<p id="search-results" aria-live="polite"></p>
+<div id="product-list">
+<section class="product-card" data-name="Maas product range">
+<h2>Maas Product Range</h2>
+        <img src="_images/FreshChoiceProductRange.jpg" alt="Maas product range" class="gallery-image" tabindex="0" width="550">
+        <p>Pasteurised full-cream maas is a fermented milk product.<br>This product sold in the following units:</p>
+        <ul>
+            <li>500ml</li>
+            <li>1l</li>
+            <li>2l</li>
+            <li>4l</li>
+        </ul>
+        
+</section>
+<section class="product-card" data-name="Traditional Maas">
+<h2>Traditional Maas</h2>
+        <img src="_images/FreshChoiceTraditionalMaas.jpg" alt="Traditional Maas" class="gallery-image" tabindex="0" width="550">
+        <p>A fermented milk product. During the production process, the milk is thermised. <br>Thermisation is a heat treatment that is applied to milk to reduce the number of spoileage
+        <br>bacteria with minimal heat damage to the milk. Once this process is complete, the product
+    <br>is bottled and the milk allowed to 'naturally' ferment, as traditionally left in a calabash
+    <br>This product is sold in the following units.</p>
+    <ul>
+        <li>2l</li>
+        <li>5l</li>
+    </ul>
+      
+</section>
+<section class="product-card" data-name="Full Cream Fresh Milk">
+<h2>Full Cream Fresh Milk</h2>
+    <img src="_images/FreshChoicemilkgarden1.jpg" alt="Full Cream Fresh Milk" class="gallery-image" tabindex="0" width="550">
+    <p>Our fresh milk is pasteurised but not homogenised. Fresh Choice 
+        <br>believes that milk should be processed as little as possible, and 
+        <br>consumed in the most natural state possible. Homogenisation,
+        <br>which is not necessary for any food saftey reason, destroys the 
+        <br>sweet, creamy taste of the fresh milk and alters its molecular
+        <br>structure.
+        <br>This product is sold in the following units:
+        <ul>
+            <li>2l</li>
+        </ul>
+    </p>
+    
+</section>
+<section class="product-card" data-name="Fresh Cream">
+<h2>Fresh Cream</h2>
+    <img src="_images/FreshChoiceCream-1.jpg" alt="Fresh Cream" class="gallery-image" tabindex="0" width="550">
+    <p>Fresh cream is pasteurised and sold as such. Our cream can be
+    <br>used for cooking or baking up delicious treats.
+    <br>This product is available in the following units:
+    <ul>
+        <li>1l</li>
+        <li>500ml</li>
+        <li>250ml</li>
+    </ul>
+    </p>
+    
+</section>
+<section class="product-card" data-name="Butter">
+<h2>Butter (salted and unsalted)</h2>
+    <img src="_images/FreshChoiceButter.jpg" alt="Butter" class="gallery-image" tabindex="0" width="550">
+    <p>Fresh Choice's butter is traditional farm butter and is made only
+     <br>from cream, and where applicable, salt is added.  The butter is
+     <br>deliciously creamy, rich and can be used for cooking, baking, or on
+     <br>freshly baked bread.
+     <br>This product is available in the following units: 
+     <ul>
+        <li>500g tubs</li>
+     </ul>  
+    </p>
+    
+</section>
+<section class="product-card" data-name="Taste the difference">
+<h2>Taste the difference</h2>
+    <img src="_images/FreshChoiceMaas.jpg" alt="Taste the difference" class="gallery-image" tabindex="0" width="550">
+    <p>We believe our dairy products should be processed as little as
+        <br>possible, and consumed in the most natural state possible.
+        <br><br>
+        <br>That's why all our products are made with milk that is Full Cream and
+        <br>Hormone free - this gives them a distinctive smooth taste.
+        
+</section>
+</div>
+<div id="lightbox" role="dialog" aria-label="Enlarged product image" aria-modal="true" hidden>
+<button type="button" id="lightbox-close" aria-label="Close image">&times;</button>
+<img id="lightbox-image" alt="">
+<p id="lightbox-caption"></p>
+</div>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+                		<p>
+				<script>
+					var theDate=new Date()
+					document.write("&copy; " + theDate.getFullYear())
+					document.write(" - Fresh Choice | Last modified: ")
+					var theModifiedDate=new Date(document.lastModified)
+					document.write(theModifiedDate.toDateString())
+				</script>
+				<br>Powered by "Sharp-Sharp" Web Hosting
+		</p>
+    </footer>
+    
+    <script src="javascript/script.js"></script>
+    <script src="lightbox/lightbox.js"></script>
+</body>
+</html>
