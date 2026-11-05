@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Replace example.com with the real published website URL before submitting this sitemap to search engines. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://example.com/index.html</loc></url>
-  <url><loc>https://example.com/about.html</loc></url>
-  <url><loc>https://example.com/product.html</loc></url>
-  <url><loc>https://example.com/enquiry.html</loc></url>
-  <url><loc>https://example.com/contact.html</loc></url>
+    <url>
+        <loc>https://st10528734-fresh-choice.netlify.app/index.html</loc>
+    </url>
+    <url>
+        <loc>https://st10528734-fresh-choice.netlify.app/about.html</loc>
+    </url>
+    <url>
+        <loc>https://st10528734-fresh-choice.netlify.app/product.html</loc>
+    </url>
+    <url>
+        <loc>https://st10528734-fresh-choice.netlify.app/enquiry.html</loc>
+    </url>
+    <url>
+        <loc>https://st10528734-fresh-choice.netlify.app/contact.html</loc>
+    </url>
 </urlset>
