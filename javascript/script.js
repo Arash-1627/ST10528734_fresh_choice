@@ -1,4 +1,3 @@
-// Fresh Choice Dairy - beginner JavaScript for POE Part 3
 // Find the search box on the Product page.
 var searchBox = document.getElementById("product-search");
 var productCards = document.querySelectorAll(".product-card");
