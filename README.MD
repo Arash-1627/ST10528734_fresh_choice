@@ -134,6 +134,7 @@ I added simple JavaScript to the Product, Enquiry and Contact pages. The Product
 | GitHub needs multiple descriptive commits rather than a ZIP upload. | **Completed:** Uploaded the website files and folders to GitHub and made commits to document the changes. |
 
 **Published website:** https://st10528734-fresh-choice.netlify.app/ 
+
 **GitHub repository:** https://github.com/Arash-1627/ST10528734_fresh_choice
 
 **Learning material:** IIE (2026) *WEDE5020 Web Development (Introduction) Module Manual*, Learning Unit 6 (JavaScript and form validation). 
