@@ -17,7 +17,7 @@ I added the colours and typography that I planned in my original proposal and wo
 I also improved the Enquiry page by styling the form and adding a Google Form where users can send an enquiry. My main goal for this part was to make the website look better while also keeping it simple and easy for users to understand. Overall, Part 2 helped me improve the basic website from Part 1 and make it feel more complete and user-friendly.
 
 ## Project Overview (POE Part 3)
-For Part 3, I added basic JavaScript to make the Fresh Choice Dairy website more interactive. Visitors can search for products on the Product page and click product images to see them in a larger lightbox. I also added simple validation to the Enquiry and Contact forms so that visitors get feedback when filling in their details. I worked on SEO by adding page descriptions, image alternative text, robots.txt and sitemap.xml. The website still needs to be tested after publishing, and the sitemap links need to be updated with the live website address.
+For Part 3, I added basic JavaScript to make the Fresh Choice Dairy website more interactive. Visitors can search for products on the Product page and click product images to see them in a larger lightbox. I also added simple validation to the Enquiry and Contact forms so that visitors get feedback when filling in their details. I worked on SEO by adding page descriptions, image alternative text, robots.txt and sitemap.xml.
 
 ## Website Goals and Objectives
 | Goal | Actionable objective |
@@ -123,22 +123,22 @@ I added simple JavaScript to the Product, Enquiry and Contact pages. The Product
 | Lightbox | Added clickable product images and a larger image view with a close button. |
 | Enquiry form | Added required-field validation and a confirmation message. |
 | Contact form | Added a general contact form that prepares an email. |
-| SEO | Added meta descriptions, product image alt text, robots.txt and a sample sitemap.xml. |
+| SEO | Added meta descriptions, product image alt text, robots.txt and a sitemap.xml with the published website links. |
+| Website publishing | Uploaded my website to GitHub and published it using Netlify. |
 
 ### Lecturer Feedback and Follow-up Checks
 | Feedback from lecturer | Status / action needed |
 | --- | --- |
 | The closing `</header>` tag on `contact.html` is not correctly aligned. | **Still to fix in the HTML:** Align the closing tag with its opening `<header>` tag. |
 | Add appropriate CSS pseudo-classes for navigation links. | **Partially complete:** The stylesheet uses `:hover` and `:focus`, but `:link`, `:visited` and `:active` still need to be considered and tested. |
-| GitHub needs multiple descriptive commits rather than a ZIP upload. | **Still to do:** Upload the actual files and folders, then make descriptive commits for genuine subsequent changes. |
-| README is missing goals and objectives. | **Updated:** Added a Website Goals and Objectives table above. |
+| GitHub needs multiple descriptive commits rather than a ZIP upload. | **Completed:** Uploaded the website files and folders to GitHub and made commits to document the changes. |
 
-**Published website:** Not added yet  
-**GitHub repository:** Not added yet
+**Published website:** https://st10528734-fresh-choice.netlify.app/ 
+**GitHub repository:** https://github.com/Arash-1627/ST10528734_fresh_choice
 
 **Learning material:** IIE (2026) *WEDE5020 Web Development (Introduction) Module Manual*, Learning Unit 6 (JavaScript and form validation). 
 
-IIE (2026) *WEDE5020 POE*, Part 3. Add any additional code.
+IIE (2026) *WEDE5020 POE*, Part 3.
 
 ### Additional Learning References
 W3Schools, [s.a.]. *JavaScript Tutorial*. Available at: https://www.w3schools.com/js/ [Accessed 5 November 2026].
