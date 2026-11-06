@@ -133,11 +133,11 @@ I added simple JavaScript to the Product, Enquiry and Contact pages. The Product
 | Add appropriate CSS pseudo-classes for navigation links. | **Partially complete:** The stylesheet uses `:hover` and `:focus`, but `:link`, `:visited` and `:active` still need to be considered and tested. |
 | GitHub needs multiple descriptive commits rather than a ZIP upload. | **Completed:** Uploaded the website files and folders to GitHub and made commits to document the changes. |
 
-**Published website:** https://st10528734-fresh-choice.netlify.app/ 
+**Published Website (Netlify):** https://st10528734-fresh-choice.netlify.app/
 
-**GitHub repository:** https://github.com/Arash-1627/ST10528734_fresh_choice
+**Final POE Repository (EMGPSD – Private):** https://github.com/EMGPSD/ST10528734_WEDE5020_POE_fresh_choice
 
-**Learning material:** IIE (2026) *WEDE5020 Web Development (Introduction) Module Manual*, Learning Unit 6 (JavaScript and form validation). 
+**Personal GitHub Repository (Arash-1627 – Public):** https://github.com/Arash-1627/ST10528734_fresh_choice
 
 IIE (2026) *WEDE5020 POE*, Part 3.
 
